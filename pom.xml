@@ -86,14 +86,13 @@
 
 	</dependencies>
 	
-	<repositories>
-       <repository>
-         <id>nexus</id>
-        <url>http://ec2-35-154-54-128.ap-south-1.compute.amazonaws.com:8081/repository/presentation_group/</url>
-           </repository>
-            </repositories>
-	
-	
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://ec2-35-154-54-128.ap-south-1.compute.amazonaws.com:8081/repository/presentation_group/</url>
+	    </repository>
+	</distributionManagement>
 	
 	
 	<build>
