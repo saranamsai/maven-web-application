@@ -94,32 +94,6 @@
             </repositories>
 	
 	
-	<profile>
-		      <id>nexus</id>
-		      <!--Enable snapshots for the built in central repo to direct -->
-		      <!--all requests to nexus via the mirror -->
-		      <repositories>
-		        <repository>
-		          <id>central</id>
-		          <url>http://ec2-35-154-54-128.ap-south-1.compute.amazonaws.com:8081/repository/nuget-group/</url>
-		          <releases><enabled>true</enabled></releases>
-		          <snapshots><enabled>true</enabled></snapshots>
-		        </repository>
-		      </repositories>
-		     <pluginRepositories>
-		        <pluginRepository>
-		          <id>central</id>
-		          <url>http://ec2-35-154-54-128.ap-south-1.compute.amazonaws.com:8081/repository/nuget-group/</url>
-		          <releases><enabled>true</enabled></releases>
-		          <snapshots><enabled>true</enabled></snapshots>
-		        </pluginRepository>
-		      </pluginRepositories>
-		    </profile>
-		  </profiles>
-		  <activeProfiles>
-		    <!--make the profile active all the time -->
-		    <activeProfile>nexus</activeProfile>
-		  </activeProfiles>
 	
 	
 	<build>
