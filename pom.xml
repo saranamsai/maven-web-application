@@ -99,7 +99,7 @@
 	</distributionManagement>
 	
 	
-	<repositories>
+ <!--<repositories>
        <repository>
          <id>nexus</id>
          <name>central</name>
@@ -113,7 +113,7 @@
      <url>http://ec2-13-232-138-55.ap-south-1.compute.amazonaws.com:8081/repository/practiceproxy/</url>
 			    </pluginRepository>
 		    </pluginRepositories>
-	
+	-->
 	
 	<build>
 		<finalName>maven-web-application</finalName>
