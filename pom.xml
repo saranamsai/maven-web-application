@@ -85,34 +85,6 @@
 		</dependency>
 
 	</dependencies>
-	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-13-232-138-55.ap-south-1.compute.amazonaws.com:8081/repository/presentationrelease/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://ec2-13-232-138-55.ap-south-1.compute.amazonaws.com:8081/repository/presentation_snapshot/</url>
-	    </snapshotRepository>
-	</distributionManagement>
-	
-	
- <repositories>
-       <repository>
-         <id>nexus</id>
-         <name>central</name>
-         <url>http://ec2-13-232-138-55.ap-south-1.compute.amazonaws.com:8081/repository/presentation_group/</url>
-	       
-           </repository>
-            </repositories>
-	    <pluginRepositories>
-		    <pluginRepository>
-			    <id>plugin</id>
-     <url>http://ec2-13-232-138-55.ap-south-1.compute.amazonaws.com:8081/repository/presentation_group/</url>
-			    </pluginRepository>
-		    </pluginRepositories>
 	
 	
 	<build>
