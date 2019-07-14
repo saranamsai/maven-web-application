@@ -30,3 +30,5 @@ public class TestController {
 		this.mockMvc.perform(get("/")).andExpect(status().isOk());
 	}
 }
+
+
