@@ -21,10 +21,15 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
+  labels:
+    app: jenkins
   name: jenkins
 spec:
-  type: LoadBalancer
   ports:
-  - port: 8080
+    - name: jenkins-port
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
   selector:
     app: jenkins
+  type: LoadBalancer
