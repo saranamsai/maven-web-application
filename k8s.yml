@@ -12,8 +12,8 @@ spec:
       labels:
         app: jenkins
     spec:
-      containers: jenkins
-      - name:
+      containers:
+      - name: jenkins-pod
         image: saranam/karthik:latest
         ports:
         - containerPort: 8080
